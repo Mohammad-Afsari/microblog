@@ -27,13 +27,13 @@
 }
 .navbar a:hover {
   color: #f1356d;
+  transition: 0.1s;
 }
 .content {
   max-width: 600px;
   margin: 40px auto;
   padding: 20px;
 }
-
 
 /* blog previews / list */
 .blog-preview {
@@ -49,11 +49,11 @@
   color: #f1356d;
   margin-bottom: 8px;
 }
-
 .blog-preview a{
   text-decoration: none;
 }
 
+/* blog details page */
 .blog-details h2 {
   font-size: 20px;
   color: #f1356d;
@@ -62,7 +62,40 @@
 .blog-details div {
   margin: 20px 0;
 }
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
 
+.blog-details button:hover {
+  background: #f00b4f;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
 .create input, .create textarea, .create select {
   width: 100%;
   padding: 6px 10px;
@@ -78,4 +111,17 @@
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.not-found h1 {
+  margin-bottom: 10px ;
+}
+
+.not-found p {
+  padding: 10px 0;
+}
+
+.homeRedirect:hover {
+  color:#f00b4f;
+  transition: 0.15s;
 }
