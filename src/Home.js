@@ -3,7 +3,7 @@ import useFetch from "./useFetch";
 
 
 const Home = () => {
-    const {data: blogs, isPending, error} = useFetch('http://localhost:8000/blogs')
+    const {data: blogs, isPending, error} = useFetch('https://github.com/mohammad-afsari/microblog/blob/[main|master]/db.json')
 
     return (
         <div className="home">
