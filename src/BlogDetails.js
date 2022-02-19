@@ -5,12 +5,12 @@ import useFetch from "./useFetch";
 
 const BlogDetails = () => {
     const { id } = useParams()
-    const {data: blog, error, isPending } = useFetch('https://github.com/mohammad-afsari/microblog/blob/master/db.json/' + id)
+    const {data: blog, error, isPending } = useFetch('https://my-json-server.typicode.com/mohammad-afsari/microblog/blogs/' + id)
     const history = useHistory()
 
     // http://localhost:8000/blogs/
     const handleDelete = () => {
-        fetch('https://github.com/mohammad-afsari/microblog/blob/master/db.json/' + blog.id, {
+        fetch('https://my-json-server.typicode.com/mohammad-afsari/microblog/blogs/' + blog.id, {
             method: 'DELETE'
         }).then(() => {
             history.push('/')
