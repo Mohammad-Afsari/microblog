@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Mohammad-Afsari/microblog/static/css/main.fe1e1943.css",
-    "main.js": "/Mohammad-Afsari/microblog/static/js/main.8d3cd56a.js",
+    "main.js": "/Mohammad-Afsari/microblog/static/js/main.f1bfcb6b.js",
     "index.html": "/Mohammad-Afsari/microblog/index.html",
     "main.fe1e1943.css.map": "/Mohammad-Afsari/microblog/static/css/main.fe1e1943.css.map",
-    "main.8d3cd56a.js.map": "/Mohammad-Afsari/microblog/static/js/main.8d3cd56a.js.map"
+    "main.f1bfcb6b.js.map": "/Mohammad-Afsari/microblog/static/js/main.f1bfcb6b.js.map"
   },
   "entrypoints": [
     "static/css/main.fe1e1943.css",
-    "static/js/main.8d3cd56a.js"
+    "static/js/main.f1bfcb6b.js"
   ]
 }
